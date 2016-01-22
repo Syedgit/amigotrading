@@ -15,7 +15,7 @@ myApp.config(['$stateProvider','$urlRouterProvider' ,function($stateProvider, $u
     .state('state2',{
       url:"/state2",
       templateUrl: "views/view1.html",
-      controller: "workerController"
+      controller: "WorkerController"
     })
      .state('state3',{
       url:"/state3",
